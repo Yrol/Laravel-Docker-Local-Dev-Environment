@@ -8,7 +8,7 @@ A docker-compose workflow for local Laravel development. This includes the follo
 * NPM
 * Artisan
 
-## Prerequisite
+## Prerequisites
 1. Make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your local machine before setting up the project.
 2. [Composer](https://getcomposer.org/doc/00-intro.md)
 
@@ -49,7 +49,7 @@ composer create-project laravel/laravel .
 ```
 
 
-# Bash command Map
+# Bash command map
 - **./deploy-local** - `docker-compose build && docker-compose up -d`
 - **./composer-install** - `docker-compose run --rm composer install`
 - **./composer-update** - `docker-compose run --rm composer update`
@@ -64,6 +64,7 @@ Additionally you may include more commands to suite your needs.
 - **mysql** - `:3306`
 - **php** - `:9000`
 - **npm**
+- **artisan**
 
 
 
